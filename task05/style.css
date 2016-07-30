@@ -18,11 +18,8 @@
     left:20px;
 }
 .header a{
-    display: block;
-    background-color: rgb(51,51,51);
     text-decoration: none;
     color: rgb(170,170,170);
-    height: 10px;
     padding: 0 10px;
 }
 .header a:hover{
@@ -40,8 +37,118 @@
     float: left;
 }
 .mainbody{
-    position: absolute;
-    top:100px;
+    /*position: absolute;*/
+    /*top:100px;*/
+    float: left;
     background-color: rgb(222,222,222);
+    width:100%;
 }
+.mainbody>div{
+    background-color: white;
+    margin: 20px 480px 20px 18px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px gray;
+    border: 1px solid #cbcbcb;
+}
+.mainbody p{
+    text-indent: 2em;
+    text-align: left;
+}
+.mainbody a:hover{
+    color: #fc0;
+}
+.mainbody img{
+    width: 300px;
+    height:300px;
+    margin: 20px 10px;
+}
+#art2 ul{
+    list-style: none;
+    text-indent: 2em;
+}
+#art3 img{
+    width:100px;
+    height:100px;
+    margin: 5px;
+}
+figure{
+    border: 1px solid #cbcbcb;
+    margin: 10px;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+}
+figcaption{
+    vertical-align: middle;
+    padding: 5px;
+}
+#art4 span,time,h2,h4{
+    margin: 10px;
+}
+#art4 li{
+    margin: 10px 30px;
+    font-weight: bold;
+}
+table{
+    font-weight: bold;
+    margin:0 auto;
+    width: 100%;
+    border: 1px solid #cbcbcb;
+    border-collapse: collapse;
+    text-align: left;
+}
+thead{
+    background-color: #333333;
+    color: white;
+}
+tbody td{
+    border: 1px solid #cbcbcb;
+}
+.total{
+    background-color: #ccc;
+}
+.aside{
+    float: right;
+    width: 415px;
+    background-color: white;
+    margin: 20px 20px 0 -100%;
+    padding: 10px;
+    box-shadow: 2px 2px 2px gray;
+    border: 1px #cbcbcb solid;
+}
+.input{
+    vertical-align: bottom;
+    display: inline;
+    /*text-align: ;*/
+}
+.input_message{
+    text-align: right;
+    margin: 10px 10px 0;
+}
+.tips{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #a0a0a0;
+    margin-left: 40%;
+    font-size: smaller;
+}
+button{
+    color: white;
+    background-color: #3355d0;
+    border-radius: 20px;
+    border: 1px solid;
+    width:100%;
+    height: 40px;
+    margin: 15px auto 10px;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    float: left;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
 
